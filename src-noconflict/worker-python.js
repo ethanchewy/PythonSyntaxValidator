@@ -3648,7 +3648,7 @@ var Parser = (function () {
                     throw parseError("too much input", this.fileName);
                 }
             } else {
-                throw parseError("bad input", this.fileName, context[0], context[1]);
+                throw parseError("Invalid Syntax", this.fileName, context[0], context[1]);
             }
         }
     };
